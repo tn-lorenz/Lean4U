@@ -1,0 +1,10 @@
+name = "Lean4U"
+version = "0.1.0"
+defaultTargets = ["lean4u"]
+
+[[lean_lib]]
+name = "Lean4U"
+
+[[lean_exe]]
+name = "lean4u"
+root = "Main"
